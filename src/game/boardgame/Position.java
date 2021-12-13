@@ -1,4 +1,4 @@
-package example.com.boardgame;
+package game.boardgame;
 
 public class Position {
 

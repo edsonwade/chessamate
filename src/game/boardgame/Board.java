@@ -1,4 +1,4 @@
-package example.com.boardgame;
+package game.boardgame;
 
 public class Board {
 
@@ -26,6 +26,26 @@ public class Board {
 
     public void setColumns(int columns) {
         this.columns = columns;
+    }
+
+    /**
+     * given a row and columns number
+     *
+     * @param row
+     * @param columns
+     * @return row and columns in pieces
+     */
+    public Piece piece(int row, int columns) {
+        return pieces[row][columns];
+    }
+
+    /**
+     *
+     * @param position
+     * @return pieces positions
+     */
+    public Piece piece(Position position) {
+        return pieces[position.getRow()][position.getColumn()];
     }
 
     @Override
