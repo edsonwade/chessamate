@@ -1,2 +1,2 @@
 # chessamate
-A simple chessmate game build with java
+Chess sistems game build in java
